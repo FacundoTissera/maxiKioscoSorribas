@@ -1,0 +1,181 @@
+/*COLOR BASE DE PROYECTO : #F35C17 (naranja)+
+#F4F0E5
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*BODY*/
+body{
+    background-color:#FBF6EE ;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0 auto;
+    /* font-size: 11px; */
+}
+/*BODY*/
+
+
+/*HEADER*/
+header{
+    padding-bottom: 15px;
+    background-color: #FBF6EE;
+    font-size: 17px;
+}
+
+.top-mid-pie-pagina{
+    background-color: #F35C17 ;
+    width: 100%;
+    height: 12px;
+}
+
+.caja-header{
+    text-align: center;
+    
+}
+
+.logo-principal{
+    width: 26%;
+    
+}
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;  
+}
+/*HEADER*/
+
+/*MAIN*/
+
+.carousel{
+    width: 100%;
+    margin-bottom: -3px;
+}
+.linea-mid-pagina{
+    background-color: #F35C17 ;
+    width: 100%;
+    height: 8px;
+}
+
+.titulo-index{
+    text-align: center;
+    background-color: #F35C17;
+    margin-top: 15px;
+}
+
+.caja-bottom{
+    margin-bottom: 105px;
+}
+
+
+
+.linea-producto-index{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 45px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+.caja-producto-index{
+    margin-top: 25px;
+    width: 11%;
+    /* border: red 2px solid; */
+    background: linear-gradient(to bottom,#fbf6ee 6%, rgb(255 91 0 / 56%));
+    box-shadow: 1px -1px 10px 0px rgb(255 91 0 / 96%);
+
+}
+
+.descripcion{
+    text-align: center;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.precio{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.caja-boton-ver-mas{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.boton-ver-mas{
+    background-color: #fb5e02c5;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 180px;
+    height: 45px;
+    border-radius: 9px;
+    align-items: center;
+    border-style: none;
+    box-shadow: 1px -1px 10px 0px rgba(7, 2, 0, 0.753);
+}
+
+/*BOTON DE WHATSAPP*/
+
+.button-whatsapp{
+    background-color: transparent;
+    position: fixed;
+    right: 11px;
+    bottom: 50px;
+    border: none;
+    
+}
+.whatsapp{
+    width: 60px;
+}
+
+/*BOTON DE WHATSAPP*/
+
+
+
+/*MAIN*/
+/*FOOTER*/
+
+footer{
+    background-color:#F4F0E5 ;
+    
+}
+
+.caja-contactos-redes-preguntas{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 35px;
+}
+.titulos-footer{
+    /* color: #F35C17; */
+    padding-bottom: 15px;
+}
+
+.email, .productos-footer{
+    padding-bottom: 15px;
+}
+.redes{
+    font-size: 66px;
+    color: #F35C17;
+}
+
+/*FOOTER*/
