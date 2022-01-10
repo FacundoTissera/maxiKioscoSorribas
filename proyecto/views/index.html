@@ -24,17 +24,20 @@
 
             <!-- logo principal -->
             <div class="caja-header">
-                <img class="logo-principal" src="../public/images/MKSSorribas/LOGO_Naranja.png" alt="">
+                <a href="./index.html"><img class="logo-principal" src="../public/images/MKSSorribas/LOGO_Naranja.png" alt="Logo"></a>
             </div>
             
             <!-- barra de navegacion -->
                 <nav >
                     <ul class="barra-navegacion">
                         
-                        <li><a href="./index.html">INICIO</a></li>
-                        <li><a href="./productos.html">PRODUCTOS</a></li>
-                        <li><a href="./nosotros.html">NOSOTROS</a></li>
-                        <li><a href="./login.html">LOGIN</a></li>
+                        <li><a class="element-nav" href="./index.html">INICIO</a></li>
+
+                        <li><a class="element-nav" href="./productos.html">PRODUCTOS</a></li>
+
+                        <li><a class="element-nav" href="./nosotros.html">NOSOTROS</a></li>
+
+                        <li><a class="element-nav" href="./login.html">LOGIN</a></li>
                     </ul>
                 </nav>
         </header>
@@ -117,6 +120,17 @@
                 
                 <div class="caja-producto-index">
                     <div class="contenedor-imagen">
+                        <img style="width: 50%" src="../public/images/cerveza-corona-png.png" alt="coca" />
+                    </div>
+                    <div class="descripcion">
+                        <p>CORONA 330ml</p>
+                    </div>
+                    <div class="precio">
+                        <p>$250,°°</p>
+                    </div>
+                </div>
+                <div class="caja-producto-index eliminar">
+                    <div class="contenedor-imagen">
                         <img style="width: 100%" src="../public/images/coca.png" alt="coca" />
                     </div>
                     <div class="descripcion">
@@ -126,6 +140,7 @@
                         <p>$250,°°</p>
                     </div>
                 </div>
+                
             </section>
             
             
@@ -201,6 +216,17 @@
                         <p>$250,°°</p>
                     </div>
                 </div>
+                <div class="caja-producto-index eliminar">
+                    <div class="contenedor-imagen">
+                        <img style= "width: 70%; padding: 5px;" src="../public/images/pringles.png" alt="coca" />
+                    </div>
+                    <div class="descripcion">
+                        <p>CORONA 330ml</p>
+                    </div>
+                    <div class="precio">
+                        <p>$250,°°</p>
+                    </div>
+                </div>
             </section>
             <div class="caja-boton-ver-mas">
                 <button class="boton-ver-mas"> VER MAS <i class="fas fa-chevron-down"></i> </button>
@@ -213,7 +239,7 @@
                 <img src="../public/images/whatsapp.png" alt="whatsapp" class="whatsapp">
             </a>
         </button>
-        <img style="width:100%" src="../public/images/lays.PNG" alt="">
+        <img class="banner-lays" style="width:100%" src="../public/images/lays.PNG" alt="">
         <div class="linea-mid-pagina"></div>
         
         <footer>
@@ -227,6 +253,7 @@
                     <p>0353-4813541</p>
                     
                 </section>
+                
                 
                 <section class="cajas-base-footer">
                     
@@ -246,7 +273,7 @@
 
                 <p class="productos-footer">Preguntas frecuentes</p>
                 
-                <p ><a href="#">Productos</a></p>
+                <p ><a class="productos-footer" href="#">Productos</a></p>
             </section>
         </div>
 
