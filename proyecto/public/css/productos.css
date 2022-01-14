@@ -50,6 +50,23 @@
     font-weight: bolder;
     font-size: 22px;
   }
+
+  nav {
+    animation-duration: 3s;
+    animation-name: barra-nav;
+  }
+  
+  @keyframes barra-nav {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
   /*HEADER*/
   
   /*MAIN*/
@@ -91,7 +108,8 @@
   .caja-producto-producto {
     padding: 7px;
     margin-top: 25px;
-    width: 77%;
+    margin-left: 30px;
+    width: 68%;
     /* border: red 2px solid; */
     background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%));
     box-shadow: 1px -1px 10px 0px rgb(255 91 0 / 96%);
@@ -265,6 +283,9 @@
   }
   @media (min-width: 1008px)  {
  
+  
   }
+
+  
   /*MEDIAS*/
   
