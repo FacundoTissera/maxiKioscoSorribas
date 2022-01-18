@@ -110,15 +110,17 @@
     margin-top: 25px;
     margin-left: 30px;
     width: 68%;
-    /* border: red 2px solid; */
-    background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%));
-    box-shadow: 1px -1px 10px 0px rgb(255 91 0 / 96%);
+    border: #040404 1px solid;
+    /* background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%)); */
+    box-shadow: 11px 12px 16px -9px rgb(12 5 1);
+    border-radius: 12px;
   }
   
   .descripcion {
     text-align: center;
     margin: 12px;
     font-weight: bold;
+    padding: 19px;
   }
   
   .precio {
