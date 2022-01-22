@@ -115,10 +115,11 @@ nav {
   padding: 7px;
   margin-top: 25px;
   width: 15%;
-  border: #040404 1px solid;
+  
   /* background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%)); */
-  box-shadow: 11px 12px 16px -9px rgb(12 5 1);
-  border-radius: 12px;
+  box-shadow: 0px 16px 32px -4px rgb(145 158 171 / 24%), inset 0px 0px 4px rgb(145 158 171 / 24%);
+    border-radius: 16px;
+  border-radius: 16px;
 }
 
 .descripcion {

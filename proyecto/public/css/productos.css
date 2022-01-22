@@ -110,11 +110,13 @@
     margin-top: 25px;
     margin-left: 30px;
     width: 68%;
-    border: #040404 1px solid;
+    background-color: #a99c8f1f; 
     /* background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%)); */
-    box-shadow: 11px 12px 16px -9px rgb(12 5 1);
-    border-radius: 12px;
-  }
+    box-shadow: 0px 16px 32px -4px rgb(145 158 171 / 24%), inset 0px 0px 4px rgb(145 158 171 / 24%);
+    border-radius: 16px;
+  
+}
+  
   
   .descripcion {
     text-align: center;
