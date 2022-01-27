@@ -1,0 +1,52 @@
+@import '../base/cabecera';
+// HEADER
+header{
+    padding-bottom: 15px;
+    background-color: $bg-color;
+    font-size: $size-header;
+    
+        .top-mid-pie-pagina{
+            @extend %barra-naranja
+        } 
+
+        .caja-header{
+            text-align: center;
+        }
+
+        .logo-principal{
+            width: 26%;
+        }
+        
+        .barra-navegacion {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0px;
+            margin-top: 0px;
+        }
+
+        .element-nav {
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            font-size: 22px;
+        }
+        // ANIMACIONES
+        nav {
+            animation-duration: 3s;
+            animation-name: barra-nav;
+        }
+        
+        @keyframes barra-nav {
+            from {
+            margin-left: 100%;
+            width: 300%
+            }
+        
+            to {
+            margin-left: 0%;
+            width: 100%;
+            }
+        }
+}
