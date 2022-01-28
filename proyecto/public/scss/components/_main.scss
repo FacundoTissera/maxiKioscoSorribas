@@ -1,0 +1,78 @@
+@import '../base/barra-naranja';
+@import '../base/boton-ver-mas';
+@import '../base/precio-descripcion';
+@import '../base/boton-whatsapp';
+
+.linea-mid-pagina{
+        @extend %barra-naranja;
+    }
+
+
+main{
+    
+.titulo-index {
+        text-align: center;
+        background-color: #f35c17;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+
+.linea-producto-producto {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 5px;
+    margin-top: 45px;
+        
+    
+        
+    .caja-producto-producto {
+        padding: 7px;
+        margin-top: 25px;
+        margin-left: 30px;
+        width: 68%;
+        background-color: #a99c8f1f; 
+        /* background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%)); */
+        box-shadow: 0px 16px 32px -4px rgb(145 158 171 / 24%), inset 0px 0px 4px rgb(145 158 171 / 24%);
+        border-radius: 16px;
+        
+        .contenedor-imagen {
+            display: flex;
+            /* flex-direction: row; */
+            flex-wrap: nowrap;
+            justify-content: center;
+            }
+        .descripcion{
+            @extend %descripcion
+    }
+        .precio{
+            @extend %precio
+    }
+    
+}
+
+    .eliminado{
+        display: none;
+    }
+
+}
+
+.caja-boton-ver-mas{
+        text-align: center;
+        margin: 50px;
+        margin-bottom: 90px;
+
+            .boton-ver-mas{
+                @extend %boton-ver-mas;
+                //margin: 50px;
+            }
+    }
+
+.button-whatsapp{
+    @extend %button-whatsapp;
+
+        .whatsapp{
+            @extend %whatsapp;
+        }
+    }
+}

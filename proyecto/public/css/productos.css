@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-header .top-mid-pie-pagina {
+.linea-mid-pagina, header .top-mid-pie-pagina {
   background-color: #f35c17;
   width: 100%;
   height: 12px;
@@ -53,6 +53,87 @@ header nav {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.linea-mid-pagina, header .top-mid-pie-pagina {
+  background-color: #f35c17;
+  width: 100%;
+  height: 12px;
+}
+
+main .caja-boton-ver-mas .boton-ver-mas {
+  background-color: #fb5e02c5;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  width: 180px;
+  height: 45px;
+  border-radius: 9px;
+  align-items: center;
+  border-style: none;
+  box-shadow: 1px -1px 10px 0px rgba(7, 2, 0, 0.753);
+}
+
+main .linea-producto-producto .caja-producto-producto .descripcion {
+  text-align: center;
+  margin: 12px;
+  font-weight: bold;
+  padding: 19px;
+}
+
+main .linea-producto-producto .caja-producto-producto .precio {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+main .button-whatsapp {
+  background-color: transparent;
+  position: fixed;
+  right: 11px;
+  bottom: 50px;
+  border: none;
+}
+
+main .button-whatsapp .whatsapp {
+  width: 60px;
+}
+
+main .titulo-index {
+  text-align: center;
+  background-color: #f35c17;
+  margin-top: 15px;
+  font-weight: bold;
+}
+main .linea-producto-producto {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 5px;
+  margin-top: 45px;
+}
+main .linea-producto-producto .caja-producto-producto {
+  padding: 7px;
+  margin-top: 25px;
+  margin-left: 30px;
+  width: 68%;
+  background-color: #a99c8f1f;
+  /* background: linear-gradient(to bottom, #fbf6ee 6%, rgb(255 91 0 / 56%)); */
+  box-shadow: 0px 16px 32px -4px rgba(145, 158, 171, 0.24), inset 0px 0px 4px rgba(145, 158, 171, 0.24);
+  border-radius: 16px;
+}
+main .linea-producto-producto .caja-producto-producto .contenedor-imagen {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+main .linea-producto-producto .eliminado {
+  display: none;
+}
+main .caja-boton-ver-mas {
+  text-align: center;
+  margin: 50px;
+  margin-bottom: 90px;
 }
 
 /*# sourceMappingURL=productos.css.map */

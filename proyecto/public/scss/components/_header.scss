@@ -1,3 +1,4 @@
+@import '../base/barra-naranja';
 @import '../base/cabecera';
 // HEADER
 header{
@@ -6,7 +7,7 @@ header{
     font-size: $size-header;
     
         .top-mid-pie-pagina{
-            @extend %barra-naranja
+            @extend %barra-naranja;
         } 
 
         .caja-header{
