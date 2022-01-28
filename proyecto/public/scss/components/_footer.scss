@@ -1,0 +1,30 @@
+@import '../base/body';
+
+footer{
+    // el color de fondo lo traje de el body
+    background-color: $bg-color;
+    .caja-contactos-redes-preguntas{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 35px;
+
+        .titulos-footer {
+            /* color: #F35C17; */
+            color:$bg-color-naranja;
+            padding-bottom: 15px;
+            text-decoration: none;
+        }    
+
+        .email a,
+        .productos-footer, .footer-p {
+            text-decoration: none;
+            padding-bottom: 15px;
+            color: black;
+        }
+        .redes {
+            font-size: 66px;
+            color: $bg-color-naranja;
+        }
+    }
+}

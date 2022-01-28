@@ -135,5 +135,30 @@ main .caja-boton-ver-mas {
   margin: 50px;
   margin-bottom: 90px;
 }
+footer {
+  background-color: #fbf6ee;
+}
+footer .caja-contactos-redes-preguntas {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 35px;
+}
+footer .caja-contactos-redes-preguntas .titulos-footer {
+  /* color: #F35C17; */
+  color: #f35c17;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+footer .caja-contactos-redes-preguntas .email a,
+footer .caja-contactos-redes-preguntas .productos-footer, footer .caja-contactos-redes-preguntas .footer-p {
+  text-decoration: none;
+  padding-bottom: 15px;
+  color: black;
+}
+footer .caja-contactos-redes-preguntas .redes {
+  font-size: 66px;
+  color: #f35c17;
+}
 
 /*# sourceMappingURL=productos.css.map */
