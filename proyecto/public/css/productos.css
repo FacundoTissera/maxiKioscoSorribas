@@ -54,6 +54,22 @@ header nav {
     width: 100%;
   }
 }
+@media (max-width: 640px) {
+  header * {
+    margin: 0;
+    padding: 0;
+  }
+  header .logo-principal {
+    width: 75%;
+  }
+  header .element-nav {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+}
 
 .linea-mid-pagina, header .top-mid-pie-pagina {
   background-color: #f35c17;
@@ -135,6 +151,46 @@ main .caja-boton-ver-mas {
   margin: 50px;
   margin-bottom: 90px;
 }
+@media (max-width: 640px) {
+  main .top-mid-pie-pagina {
+    width: 100%;
+  }
+  main .caja-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 45px;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .caja-top .caja-producto-producto {
+    width: 50%;
+    padding: 4px;
+  }
+  main .caja-boton-ver-mas {
+    margin-top: 45px;
+  }
+  main .caja-boton-ver-mas .boton-ver-mas {
+    width: 70%;
+  }
+  main .banner-lays {
+    display: none;
+  }
+}
+@media (min-width: 641px) and (max-width: 1007px) {
+  main .linea-producto-producto {
+    margin-left: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .linea-producto-producto .eliminado {
+    display: block;
+  }
+  main .caja-boton-ver-mas {
+    margin: 50px;
+  }
+}
+
 footer {
   background-color: #fbf6ee;
 }
@@ -159,6 +215,18 @@ footer .caja-contactos-redes-preguntas .productos-footer, footer .caja-contactos
 footer .caja-contactos-redes-preguntas .redes {
   font-size: 66px;
   color: #f35c17;
+}
+@media (max-width: 640px) {
+  footer .caja-contactos-redes-preguntas {
+    display: flex;
+    padding: 35px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  footer .caja-contactos-redes-preguntas .cajas-base-footer {
+    margin-bottom: 35px;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=productos.css.map */

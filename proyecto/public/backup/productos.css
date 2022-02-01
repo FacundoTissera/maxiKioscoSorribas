@@ -211,12 +211,12 @@
       font-weight: bolder;
       font-size: 18px;
     }
+
+    /* MAIN */
     .top-mid-pie-pagina {
       width: 100%;
     }
-    .carousel {
-      height: 182;
-    }
+  
   
     .caja-top {
       display: flex;
@@ -247,7 +247,7 @@
     .banner-lays {
       display: none;
     }
-  
+    /* FOOTER */
     .caja-contactos-redes-preguntas {
       display: flex;
       padding: 35px;

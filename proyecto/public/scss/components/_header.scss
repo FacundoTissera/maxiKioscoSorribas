@@ -50,4 +50,25 @@ header{
             width: 100%;
             }
         }
+
+        // MEDIA QUERIS DE HEADER 640PX
+        @media (max-width: 640px) {
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .logo-principal {
+                width: 75%;
+            }
+            .element-nav {
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-weight: bolder;
+                font-size: 18px;
+            }
+        }
+
+        
+
 }
