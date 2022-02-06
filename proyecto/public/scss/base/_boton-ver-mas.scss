@@ -1,5 +1,5 @@
 
-%boton-ver-mas{
+@mixin boton-ver-mas($bg-color, $olor, $f-size, $f-weight, $ancho, $alto, $b-radius, $aling-item, $border-style, $box-shadow){
     background-color: #fb5e02c5;
     color: white;
     font-size: 18px;
@@ -11,3 +11,4 @@
     border-style: none;
     box-shadow: 1px -1px 10px 0px rgba(7, 2, 0, 0.753);
 }
+

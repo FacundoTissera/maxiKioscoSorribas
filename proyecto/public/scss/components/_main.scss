@@ -63,7 +63,7 @@ main{
         margin-bottom: 90px;
 
             .boton-ver-mas{
-                @extend %boton-ver-mas;
+                @include boton-ver-mas(#fb5e02c5, white, 18px,  bolder, 180px, 45px, 9px, center, none,1px -1px 10px 0px rgba(7, 2, 0, 0.753));
                 //margin: 50px;
             }
     }
