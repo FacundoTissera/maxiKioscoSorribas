@@ -87,10 +87,16 @@ nav {
   height: 8px;
 }
 
-.titulo-index {
+.titulos-index {
   text-align: center;
   background-color: #f35c17;
   margin-top: 15px;
+}
+.principal{
+  margin-bottom: 3px;
+  margin-top: 3px;
+  color: #000000;
+  font-weight: bolder;
 }
 
 .caja-bottom {
