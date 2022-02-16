@@ -1,0 +1,51 @@
+main form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+main form fieldset {
+  border: 5px solid #F35C17;
+  border-radius: 8px;
+  padding: 15px;
+  width: 32%;
+}
+main form fieldset legend {
+  float: none;
+  width: 135px;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: calc(1.275rem + 0.3vw);
+  line-height: inherit;
+  font-weight: bold;
+}
+main form fieldset .formulario-login {
+  padding-left: 37px;
+}
+main form fieldset .formulario-login input {
+  width: 80%;
+  border-radius: 5px;
+  font-size: 19px;
+  border-style: none;
+  margin-bottom: 15px;
+}
+main form fieldset .formulario-boton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #5E5236;
+  color: #F7F7F7;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  width: 30%;
+  justify-content: center;
+  margin-left: 49%;
+}
+main form fieldset .formulario-boton .entrar {
+  width: 100%;
+  background-color: #5E5236;
+  border-radius: 8px;
+  font-size: 19px;
+}
+
+/*# sourceMappingURL=login.css.map */

@@ -11,6 +11,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../public/css/index.css">
+    
+    <!-- SCSS -->
+    <link rel="stylesheet" href="../public/css/login.css">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../public/images/MKSSorribas/favicon.ico" type="image/x-icon">
@@ -55,7 +58,34 @@
             <!-- linea separadora header y main -->
             <div class="linea-mid-pagina"></div>
         <main>
+            <form action="/index.html" method="post">
+                <fieldset>
+                    <legend>¡INGRESA!</legend>
+                    
+                    <!-- email usuario -->
+                        <div class="formulario-login">
+                            
+                            <label class="email-login" for="email" ><b>Email:</b></label>
+                            
+                            <div class="formulario-input">
+                                <input type="email" name="email" id="email" placeholder="Ingresa tu email" required>
+                            </div>
 
+                        </div>
+                        <!-- Contraseña usuario -->
+                        <div class="formulario-login">
+                            <label for="password"><b>Contraseña:</b></label>
+
+                            <div class="formulario-input">
+                                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" required>
+                            </div>
+                            <br>
+                            <div class="formulario-boton">
+                                <button type="submit" class="entrar">ENTRAR</button>
+                            </div>
+                        </div>
+                </fieldset>
+            </form>
 
         
         
