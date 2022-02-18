@@ -11,6 +11,7 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="../public/css/index.css">
+        <link rel="stylesheet" href="../public/css/nosotros.css">
     
         <!-- FAVICON -->
         <link rel="shortcut icon" href="../public/images/MKSSorribas/favicon.ico" type="image/x-icon">
@@ -59,10 +60,55 @@
         <!-- linea separadora header y main -->
         <div class="linea-mid-pagina"></div>
         <main>
+            <h1 class="titulos-index principal">NOSOTROS</h1>
+            <!-- CAROUSEL BOOTSTRAP -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../public/images/frente.jpeg" style="height: 650px" class="d-block w-100" alt="imagen carrousel 1">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="../public/images/frente.jpeg" style="height: 650px" class="d-block w-100" alt="imagen carrousel">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="../public/images/frente.jpeg" style="height: 650px" class="d-block w-100" alt="imagen carrousel">
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>  
             
+            <h2 class="titulos-index principal titulo-ubicacion">NUESTRA UBICACIÓN</h2>
             
-            
-            
+            <div class="caja-contenedor-ubicacion">
+                <div class="mapa-ubicacion">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d833.4529302617417!2d-62.0385861!3d-33.3237374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf51480599b04935!2sMaxi%20kiosco%20sorribas!5e0!3m2!1ses-419!2sar!4v1645216524996!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+                <div class="caja-ofertas">
+                    <img src="../public/images/ofertas.PNG" alt="ofertas">
+                    <img src="../public/images/productos.PNG" alt="ofertas">
+                </div>
+            </div>
             
             
             

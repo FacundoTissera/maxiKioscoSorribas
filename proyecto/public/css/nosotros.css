@@ -1,0 +1,19 @@
+.titulo-ubicacion{
+    margin: 15px 0 15px 0;
+}
+.caja-contenedor-ubicacion{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.mapa-ubicacion{
+    border: #F35C17 5px solid;
+    border-radius: 5px;
+    width: 610px;
+}
+.caja-ofertas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
