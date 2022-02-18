@@ -7,6 +7,7 @@
     margin-bottom: 20px;
 }
 .mapa-ubicacion{
+
     border: #F35C17 5px solid;
     border-radius: 5px;
     width: 610px;
@@ -17,3 +18,42 @@
     justify-content: space-around;
 }
 
+@media (max-width: 640px) {
+    .caja-contenedor-ubicacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapa-ubicacion{
+        display: flex;
+        justify-content: center;
+        border: #F35C17 5px solid;
+        border-radius: 5px;
+        width: 370px;
+        
+    }
+    .caja-ofertas{
+        width: 100%;
+        margin: 15px;
+    }
+        
+}
+@media (min-width: 641px) and (max-width: 1207px) {
+    .caja-contenedor-ubicacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapa-ubicacion{
+        display: flex;
+        justify-content: center;
+        border: #F35C17 5px solid;
+        border-radius: 5px;
+        width: 570px;
+        
+    }
+    .caja-ofertas{
+        width: 100%;
+        margin: 15px;
+    }
+}
