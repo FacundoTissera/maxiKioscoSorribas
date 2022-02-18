@@ -28,24 +28,25 @@ main{
                             font-size: 19px;
                             border-style: none;
                             margin-bottom: 15px;
+                            background-color: #C4C4C4;
                         }
             }
             .formulario-boton{
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                background-color: #5E5236;
+                background-color: #C4C4C4;
                 color: #F7F7F7;
                 border-radius: 5px;
                 cursor: pointer;
                 font-weight: bolder;
-                width: 30%;
+                width: 16%;
                 justify-content: center;
-                margin-left: 49%;
+                margin-left: 56%;
 
                                 .entrar{
-                                    width: 100%;
-                                    background-color: #5E5236;
+                                    width: 150px;
+                                    background-color: #C4C4C4;
                                     border-radius: 8px;
                                     font-size: 19px;
                                 }
@@ -57,4 +58,35 @@ main{
 
         }
     }
+
+    // mediaqueris
+   
 }
+
+ @media (max-width: 640px) {
+        main{
+            form{
+                fieldset{
+                    width: 100%;
+
+                }
+                .formulario-boton{
+                    margin-left: 39% !important;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 641px) and (max-width: 1007px) {
+        main{
+            form{
+                fieldset{
+                    width: 70%;
+
+                }
+                .formulario-boton{
+                    margin-left: 50% !important;
+                }
+            }
+        }
+    }
