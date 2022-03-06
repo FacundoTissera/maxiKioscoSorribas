@@ -29,12 +29,12 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    transition: clip-path 0.9s ease-in-out;
+    transition: clip-path 1.2s ease-in-out;
 }
 
 .centrado2{
   clip-path: circle(0% at 100% 100%);
- }
+}
 
 
 @keyframes ldio-pajrqqthmle-1 {
