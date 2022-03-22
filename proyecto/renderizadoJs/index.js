@@ -48,32 +48,32 @@ document.addEventListener('DOMContentLoaded', () => {
             const miNodo = document.createElement('div');
             miNodo.classList.add('card', 'col-sm-3');
             // Body
-            const miNodoCardBody = document.createElement('div');
-            miNodoCardBody.classList.add('card-body');
+            const body = document.createElement('div');
+            body.classList.add('card-body');
             // Titulo
-            const miNodoTitle = document.createElement('h5');
-            miNodoTitle.classList.add('card-title');
-            miNodoTitle.textContent = info.nombre;
+            const title = document.createElement('h5');
+            title.classList.add('card-title');
+            title.textContent = info.nombre;
             // Imagen
-            const miNodoImagen = document.createElement('img');
-            miNodoImagen.classList.add('img-fluid');
-            miNodoImagen.setAttribute('src', info.imagen);
+            const imagen = document.createElement('img');
+            imagen.classList.add('img-fluid', 'w');
+            imagen.setAttribute('src', info.imagen);
             // Precio
-            const miNodoPrecio = document.createElement('p');
-            miNodoPrecio.classList.add('card-text');
-            miNodoPrecio.textContent = `${info.precio}${divisa}`;
+            const precio = document.createElement('p');
+            precio.classList.add('card-text');
+            precio.textContent = `${info.precio}${divisa}`;
             // Boton 
-            const miNodoBoton = document.createElement('button');
-            miNodoBoton.classList.add('btn', 'btn-primary');
-            miNodoBoton.textContent = '+';
-            miNodoBoton.setAttribute('marcador', info.id);
-            miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
+            const boton = document.createElement('button');
+            boton.classList.add('btn', 'btn-primary');
+            boton.textContent = '+';
+            boton.setAttribute('marcador', info.id);
+            boton.addEventListener('click', anyadirProductoAlCarrito);
             // Insertamos
-            miNodoCardBody.appendChild(miNodoImagen);
-            miNodoCardBody.appendChild(miNodoTitle);
-            miNodoCardBody.appendChild(miNodoPrecio);
-            miNodoCardBody.appendChild(miNodoBoton);
-            miNodo.appendChild(miNodoCardBody);
+            body.appendChild(imagen);
+            body.appendChild(title);
+            body.appendChild(precio);
+            body.appendChild(boton);
+            miNodo.appendChild(body);
             DOMitems.appendChild(miNodo);
         });
     }
