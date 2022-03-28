@@ -84,6 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function anyadirProductoAlCarrito(evento) {
         // Anyadimos el Nodo a nuestro carrito
         carrito.push(evento.target.getAttribute('marcador'))
+
+        
+
         // Actualizamos el carrito 
         renderizarCarrito();
         // Actualizamos el LocalStorage
@@ -188,6 +191,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Eventos
     DOMbotonVaciar.addEventListener('click', vaciarCarrito);
+
+    
+    //Alerts
+    DOMbotonVaciar.addEventListener('click',()=>{
+        Swal.fire({
+            title: 'Vaciaste el carrito!',
+            text: 'El carrito se vacio correctamente!',
+            icon: 'success',
+            howConfirmButton: false,
+            timer: 1500
+    })
+    
+    })
+
+   
 
     // Inicio
     cargarCarritoDeLocalStorage();
